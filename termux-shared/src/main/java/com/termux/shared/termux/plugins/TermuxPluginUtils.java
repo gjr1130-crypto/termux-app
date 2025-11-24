@@ -466,4 +466,60 @@ public class TermuxPluginUtils {
         return errmsg;
     }
 
-}
+}>$TMUX
+    LOGIN<https://github.com/termux/termux-app#:~:text=8aca6db,constants%20and%20sha%E2%80%A6:gradle/wrapper/gradle-wrapper.properties"-|-"@@ -1,5 +1,5 @@
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.1-all.zip
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-all.zip
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+
+    /&*name: Automatic Dependency Submission
+
+on:
+  push:
+    branches: [ 'master' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dependency-submission:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: 17
+    - name: Generate and submit dependency graph
+      uses: gradle/actions/dependency-submission@v4
+          ^name: Automatic Dependency Submission
+
+on:
+  push:
+    branches: [ 'master' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dependency-submission:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: 17
+    - name: Generate and submit dependency graph
+      uses: gradle/actions/dependency-submission@v4[|];
+=@TERMUx$TMUX."localhost":.@Launch program://HHTPS.
+    
